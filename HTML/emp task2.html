@@ -1,0 +1,53 @@
+<DOCTYPE html>
+<html>
+<head>
+	<Title>
+		Registration form
+	</Title>
+        <style>
+            h2 { color:blue; font-size=50px;}
+        </style>
+        
+</head>
+<body>
+	<div class="main">
+	<div class="register">
+	 <h2>Employee Training Form</h2>
+	 <form id="register" method="Post">
+	 	<label>Employee_id:</label>
+	 	<input type="text" Name="Employee Id" placeholder="Enter id"><br><br>
+	 	<label>Name:</label>
+	 	<input type="text" Name="Employee Name" placeholder="Enter name" ><br><br>
+	 	<label>Contact number:</label>
+        <input type="text" Name="Contact number" size="10" placeholder="Enter mobile no"><br><br>
+        <label>Email:</label>
+        <input type="text" Name="Email"><br><br>
+        <label>Technology:</label>
+        <select name="Technology" id="Technology">
+         <option value="Python">Python</option>
+         <option value="Java">Java</option>
+         <option value="C++">C++</option>
+        </select><br><br>
+        <label>Course:</label><br>
+        <input type="checkbox" Name="HTML">HTML<br>
+        <input type="checkbox" Name="css">css<br>
+        <input type="checkbox" Name="Javascript">Javascript<br>
+        <label>Prefered Dates</label>
+        <input type="date" id="start date" name="Start date">
+        <input type="date" id="End date" name="ENd date"><br><br>
+        <label>Virtual List :</label>
+        
+        <input type="radio" Name="Virtual Lab" value="YES">YES<br><br>
+        <input type="radio" name="Virtual Lab" value="NO"/>NO<br>
+        <label>Online quiz</label><br><br>
+        <input type="radio" name="Online quiz" value="Yes"/>YES<br>
+        <input type="radio" name="Online quiz" value="NO"/>NO<br><br>
+        <label>Online instructions to clarify doubts:</label><br>
+        <input type="radio" name="Online instructions to clarify doubts:" value="Yes"/>Yes<br>
+        <input type="radio" name="Online instructions to clarify doubts:" value="NO"/>No<br><br>
+        <input type="submit" Value="Submit" name="Submit" id="submit">
+	 </form>
+	</div>
+</div>
+</body>
+</html>
